@@ -1,0 +1,54 @@
+Name:Antonis Papantoniou	
+USC loginid:papanton
+CSCI 455 PA1
+Fall 2014
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+AP
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:None. 
+
+
+
+
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+Question 1: The path has many dead ends because at every step the drunkard has 1/4 chances to continue at the same path. The probability of him moving in a straight line with no dead ends is very small for a large number of steps. 
+
+Question 2 &3. 
+
+My program does not display any special behaviour when I minimize the JFrame. This is because I placed the 2D points in an array in the main program and then transferred them in the paintcomponent where they were manipulated to be drawn. If the loop of the steps was done in the RandomWalkComponent instead, the window would be redrawn with a new random path each time the window was minimized and maximized. 
+
+
